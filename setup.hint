@@ -1,0 +1,5 @@
+category: Audio OCaml
+requires: cygwin libao2 ocaml
+sdesc: "OCaml libao bindings"
+ldesc: "This package contains an O'Caml interface for the cross-platform 
+audio output library, otherwise known as libao."

@@ -1,0 +1,65 @@
+ocaml-ao
+------------------------------------------
+This package contains an O'Caml interface for the cross-platform
+audio output library, otherwise known as libao.
+
+Runtime requirements:
+  cygwin-1.5.25-7
+  libao2-0.8.8-2
+  ocaml-3.10.0-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygwin-1.5.25-7
+  binutils-20060817-1
+  cygport-0.3.8-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+  ocaml-findlib-1.2.1-1
+
+Canonical website:
+  http://savonet.sourceforge.net/wiki/OCamlLibs
+
+Canonical download:
+  http://downloads.sourceforge.net/savonet/
+
+-------------------------------------------
+
+Build instructions:
+  unpack ocaml-ao-0.1.8-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./ocaml-ao-0.1.8-X.cygport all
+
+This will create:
+  /usr/src/ocaml-ao-0.1.8-X-src.tar.bz2
+  /usr/src/ocaml-ao-0.1.8-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/ocaml/3.10/ao/META
+  /usr/lib/ocaml/3.10/ao/ao.a
+  /usr/lib/ocaml/3.10/ao/ao.cma
+  /usr/lib/ocaml/3.10/ao/ao.cmi
+  /usr/lib/ocaml/3.10/ao/ao.cmxa
+  /usr/lib/ocaml/3.10/ao/ao.mli
+  /usr/lib/ocaml/3.10/ao/libao_stubs.a
+  /usr/lib/ocaml/3.10/stublibs/dllao_stubs.so
+  /usr/lib/ocaml/3.10/stublibs/dllao_stubs.so.owner
+  /usr/share/doc/ocaml-ao-0.1.8/COPYING
+  /usr/share/doc/ocaml-ao-0.1.8/Changes
+  /usr/share/doc/ocaml-ao-0.1.8/README
+
+------------------
+
+Port Notes:
+
+----- version 0.1.8-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
