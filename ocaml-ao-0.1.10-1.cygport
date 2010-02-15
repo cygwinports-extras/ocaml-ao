@@ -10,3 +10,9 @@ src_compile() {
 	cygconf
 	cygmake -j1
 }
+
+src_test() {
+	cd ${B}/examples
+	cygmake -j1
+	./ao_test || true
+}
