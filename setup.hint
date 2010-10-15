@@ -1,5 +1,5 @@
 category: Audio OCaml
-requires: libgcc1 libao2 libao-devel ocaml
+requires: libao4 libao-devel ocaml-base
 sdesc: "OCaml libao bindings"
 ldesc: "This package contains an O'Caml interface for the cross-platform 
 audio output library, otherwise known as libao."
